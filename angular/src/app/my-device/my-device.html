@@ -1,0 +1,31 @@
+<div class="row my-device">
+  <div class="col-md-4 col-sm-6" ng-repeat="device in myDevice.devices">
+    <div class="panel panel-{{myDevice.getTheme($index)}}">
+      <div class="panel-heading">
+        <span class="device-name"><i class="fa fa-cog fa-spin"></i>&nbsp{{device.name}}</span>
+      </div>
+      <div class="panel-body">
+        <div class="device-profile">
+          <p>
+            备注：{{device.profile}}
+            <br>
+            创建时间：{{device.create_at | date:'yyyy年MM月dd日'}}
+          </p>
+        </div>
+        <div ng-repeat="sensor in device.sensors">
+          <img class="logo" src="../../assets/images/temperature.png" alt="" />
+
+          <div class="col-xs-8">
+            设备类型：{{sensor.sensor_type}}
+            <br> 设备 ID: {{sensor.sensor_id}}
+          </div>
+          <input type="button" class="btn btn-default pull-right" ng-click="myDevice.goDashboard(device,sensor)"  value="查看详情">
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>

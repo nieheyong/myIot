@@ -1,0 +1,4 @@
+node_modules/
+DB/
+dump.rdb
+npm-debug.log

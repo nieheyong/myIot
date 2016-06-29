@@ -1,0 +1,20 @@
+.my-device {
+  margin-bottom: 60px;
+  .device-name{
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .device-profile {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-left: 5px solid #888888;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 140px;
+  }
+}
