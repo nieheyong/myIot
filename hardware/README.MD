@@ -23,8 +23,10 @@ ESP8266是[乐鑫espressif](http://espressif.com/)设计的wifi芯片，主要�
 
 ### 开发
 - 按照[Sming说明](https://github.com/SmingHub/Sming)搭建开发环境
-- 连接硬件到电脑
+- 使用Sming fork 出来的一个分支作为SmingHome https://github.com/fcgdam/Sming (这个分支添加了对REST API的操作函数)
 - 根据安装结果配置hardware/Makefile-user.mk文件
+- 连接硬件到电脑(在hardware/Makefile-user.mk配置串口端口)
+
 ```
 $ make flash    //向硬件写入程序
 ```
