@@ -14,18 +14,13 @@
         </div>
         <div ng-repeat="sensor in device.sensors">
           <img class="logo" src="../../assets/images/temperature.png" alt="" />
-
           <div class="col-xs-8">
             设备类型：{{sensor.sensor_type}}
             <br> 设备 ID: {{sensor.sensor_id}}
           </div>
           <input type="button" class="btn btn-default pull-right" ng-click="myDevice.goDashboard(device,sensor)"  value="查看详情">
-
         </div>
-
       </div>
     </div>
-
   </div>
-
 </div>
