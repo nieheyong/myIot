@@ -25,6 +25,17 @@
         "assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
       ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/FontAwesome.otf",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2"
+      ]
     }
   },
   "resolutions": {
