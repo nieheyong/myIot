@@ -49,9 +49,9 @@
     };
 
     activate();
-
+    
     function activate() {
-      vm.historyDay = (new Date().getTime()) - 10 * 24 * 3600 * 1000;
+      vm.historyDay = new Date(2016, 5, 25).getTime();
       vm.showHistory();
       var latsTimestamp = 0;
       var realTimer = $interval(function() {

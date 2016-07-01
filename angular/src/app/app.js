@@ -3,7 +3,7 @@
 
   angular
     .module('myIot', ['ngResource', 'ui.router', 'mgcrea.ngStrap', 'chart.js'])
-    .constant('ApiUrl', "http://192.168.1.192:3000/api/")
+    .constant('ApiUrl', "http://localhost:3000/api/")
     .config(config)
     .run(runBlock);
 
